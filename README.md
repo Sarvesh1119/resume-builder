@@ -70,4 +70,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-I am an aspiring software professional who is seeking an opportunity to work with organisation that will help me grow in my career. I am looking forward to achieve this by proving my ability to the fullest in developing and rendering the best possible solution to our end user's problems using technology wisely. I am also an enthusiastic team player known to have good communication skills.
+I am an aspiring software professional who is seeking an opportunity to work with organisation that will help me grow in my career. I am looking forward to achieve this by proving my ability to the fullest in developing and rendering the best possible solution to our end user's problems using technology wisely. I am also an enthusiastic team player known to have good communication skills.# resume-builder
