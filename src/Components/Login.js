@@ -90,7 +90,7 @@ const Login = (props) => {
         :
         <div className="login-card">
             <div id="signin-heading">
-                <h2>Sign n</h2>
+                <h2>Sign in</h2>
             </div>
             <form onSubmit={handleSubmit}>
                 <div>
