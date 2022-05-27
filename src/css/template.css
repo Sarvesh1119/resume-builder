@@ -1,0 +1,43 @@
+.template-card{
+    margin-left:50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:300px;
+    height:400px;
+}
+.template-container{
+    display:flex;
+    margin-left:23%;
+    flex-wrap: wrap;
+}
+.template{
+    margin-top:0%;
+    margin-bottom:10%;
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+    height:80%;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    height:80%;
+    width:80%
+}
+.template-flex{
+    display:flex; 
+    flex-wrap: wrap;
+    font-size:12px;
+    margin-left:10px;
+    padding-top:10px;
+    
+    color:blue;
+}
+.template-name{
+    text-align: center;
+    color:#202121;
+}
+.left-topic{
+    width:40%;
+    padding-bottom: 30px;
+}
+.right-topic{
+    margin-left:7%
+}

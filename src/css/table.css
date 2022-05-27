@@ -1,0 +1,82 @@
+/*table, th, td {
+    /*border: 1px solid black;
+    
+  }
+  th, td {
+    height:26px;
+    text-align: center;
+  }
+table{
+  border-radius: 5px;
+}
+thead{
+  color:white;
+
+
+}
+th{
+  margin:0;
+  background-color:black;
+  border-right: 1px solid red;
+}
+tr{
+  background-color:grey;
+  color:white;
+  border-right: 1px solid red;
+}
+
+.data{
+    min-width: 231px;
+}*/
+.table-structure{
+    border-collapse: collapse;
+    margin:25px 0;
+    font-size:0.9em;
+    width:100%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow:0 0 20px rgba(0,0,0,0.15);
+}
+.table-structure thead tr{
+  background-color:#3c4c66;
+  color:white;
+  text-align:left;
+  font-weight: bold;
+}
+.table-structure th, 
+.table-structure td{
+  padding:12px 15px;
+}
+.table-structure tbody tr{
+  border-bottom:1px solid #dddddd;
+}
+.table-structure tbody tr:nth-of-type(even){
+  background-color:#f3f3f3;
+}
+.edit-pen-logo{
+  border:none;
+  background-color:white;
+}
+.table-structure tbody tr:nth-of-type(even){
+  background-color:#f3f3f3;
+}
+
+
+/*.grid-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+
+*/

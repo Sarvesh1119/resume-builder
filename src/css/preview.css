@@ -1,0 +1,295 @@
+.display{
+    display:flex;
+}
+
+.name{
+    width:700px;
+    padding-left:100px;
+    padding-top:20px;
+}
+
+.phone{
+    padding-top:20px;
+}
+
+.Name{
+    color:blue;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.address{
+    margin-top:70px;
+    margin-left:-185px
+}
+
+.education{
+    margin-top:20px;
+    width:47%;
+    height: max-content;
+}
+.work{
+    margin-top:20px;
+    width:47%
+}
+.skills{
+    margin-top:20px;
+    width:47%;
+}
+.interests{
+    margin-top:20px;
+    width:47%;
+}
+.references{
+    margin-top:20px;
+    width:47%;
+}
+.courses{
+    margin-top:20px;
+    width:47%;
+}
+.languages{
+    margin-top:20px;
+    width:47%;
+}
+
+.margin7{
+    margin-top:7px;
+  }
+  .margin10{
+    margin-bottom:10px;
+  }
+  h3{
+      color:blue;
+  }
+  .submit-button{
+    margin-left:44%;
+    margin-top:30px;
+    padding-left:30px;
+    padding-right:30px;
+    margin-bottom: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:200px;
+    border-radius:4px;
+    font-size:18px;
+    border-style:none;
+    background-color: #4165e8;
+    color:white;
+  }
+  .preview-section1{
+      width:30%;
+      margin-left:-27px;
+      margin-top:-14px;
+      margin-bottom:-14px;
+      background-color: #1f1d1d;
+      color:white;
+  }
+  .preview-section2{
+    width:70%;
+    margin-left:-27px;
+    margin-top:-14px;
+    margin-bottom:-14px;
+    background-color:white;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top:40px;
+  }
+  #preview2-photo{
+      padding-left:0px;
+      padding-top:50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  .preview2-name{
+      margin-left:auto;
+      margin-right:auto;
+      width:50%;
+      padding-top:10px;
+      font-size: 24px;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .preview2-profile-heading{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    padding-top:40px;
+    padding-left:50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:14px
+  }
+  .preview2-address{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    padding-top:15px;
+    font-size: 14px;
+    margin-left:17%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  .preview2-contact-heading{
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    padding-top:40px;
+    padding-left:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px
+  }
+  .section-box{
+      padding-bottom:30px;
+  }
+  .display-line{
+      display:flex;
+      justify-content:space-between;
+  }
+  .preview2-skills-heading{
+    margin-bottom:30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    padding-top:40px;
+    padding-left:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px
+  }
+  .preview2-interests-heading{
+    margin-bottom:30px;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    padding-top:40px;
+    padding-left:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:15px
+  }
+  .preview2-skills-name{
+    margin-right:auto;
+    margin-left:43px;
+    width:50%;
+    text-align:center;
+    margin-top:10px;
+    font-size:11px;
+    font-family:'Courier New', Courier, monospace
+  }
+  .preview2-hobby{
+    margin-right:auto;
+    margin-left:43px;
+    width:50%;
+    text-align:center;
+    margin-top:10px;
+    font-size:14px;
+    font-family:'Courier New', Courier, monospace
+  }
+  .preview2-languages{
+    margin-right:auto;
+    margin-left:33px;
+    width:90%;
+    text-align:left;
+    margin-top:10px;
+    font-size:14px;
+    font-family:'Courier New', Courier, monospace
+  }
+
+  .preview2-languages2{
+    margin-right:auto;
+    margin-left:-130px;
+    width:90%;
+    text-align:left;
+    margin-top:10px;
+    font-size:14px;
+    font-family:'Courier New', Courier, monospace
+  }
+  .display-languages{
+      display:flex;
+      justify-content:space-between;
+  }
+  #bar{
+    margin-top:5px;
+    margin-left:50px;
+    margin-right:auto;
+    width:50%;
+    width:200px;
+    height:18px;
+    border:1px solid white;
+    margin-bottom: 20px;
+  }
+.sub-bar{
+    width:50%;
+    height:18px;
+    background-color:white
+}
+.p2-s2-heading{
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom:30px;
+}
+.ps-s2-container{
+    padding-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p2-s2-jobtitle{
+    font-weight: bold;
+}
+#p2-s2-employer{
+    padding-top:5px;
+}
+#p2-s2-date{
+    padding-top:5px;
+}
+#p2-s2-city{
+    padding-top:5px;
+}
+#p2-s2-description{
+    padding-top:5px;
+}
+.p2-s2-line{
+    width:500px;
+    border:1px solid black;
+    height:0px;
+    margin-right:-57px;
+    margin-top:08px;
+}
+.ps-s2-objective{
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width:768px){
+    .Name{
+        color:blue;
+        font-size:14px;
+        font-weight:bold;
+    }
+    .submit-button{
+        margin-left:37%;
+        margin-top:30px;
+        padding-left:30px;
+        padding-right:30px;
+        margin-bottom: 30px;
+        padding-top:10px;
+        padding-bottom:10px;
+        width:150px;
+        border-radius:4px;
+        font-size:18px;
+        border-style:none;
+        background-color: #4165e8;
+        color:white;
+      }
+      h3{
+          font-size:15px;
+      }
+      .address{
+        margin-top:40px;
+        margin-left:-87px
+    }
+    .name{
+        width:700px;
+        padding-left:100px;
+        padding-top:20px;
+        margin-left:-70px;
+    }
+  }

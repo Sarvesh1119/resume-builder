@@ -1,0 +1,68 @@
+.login-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width:25%;
+    margin-left:35%;
+    margin-top:10%;
+    padding:15px 26px;
+    background-color: white;
+}
+.login-input{
+    width:100%;
+   
+}
+.login-name{
+    font-weight: 400;
+}
+.login-submit{
+    border-radius: 5px;
+    width:102%;
+    height:35px;
+    border-style: none;
+    background-color: #5ba3de;
+    color:white;
+}
+.login-submit:hover{
+    background-color: #0b5fe6;
+}
+.login-submit-off{
+    border-radius: 5px;
+    width:102%;
+    height:35px;
+    border-style: none;
+    background-color: #8db5d6;
+    color:white;
+}
+.signup-link{
+    display:flex;
+    justify-content:space-between;
+    padding-top:10px;
+    width:102%;
+}
+.signin-link{
+    display:flex;
+    justify-content:space-around;
+    padding-top:10px;
+    width:102%;
+}
+#signup{
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+#go-to-login{
+    width:40%;
+    margin-left:30%;
+    border-style:none;
+    height:37px;
+    background-color: #2b6acf;
+    border-radius:5px;
+    color:white;
+}
+
+#go-to-login:hover{
+    background-color:#0454d4
+}
+#sign-up-success{
+    text-align:center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
