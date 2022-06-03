@@ -1,5 +1,5 @@
 import { put, call, takeEvery, all } from 'redux-saga/effects'
-import PostUser from "./utils"
+import PostUser from "./PostUser"
 
 function* postData(action){
     try{

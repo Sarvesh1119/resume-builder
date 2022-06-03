@@ -83,8 +83,8 @@ const Login = (props) => {
     return (
         <div>
         {error?   
-        <div>
-            <h2>Login failed due to some network error.</h2>
+        <div title="error">
+            <h2>Login failed due to some network eror.</h2>
             <button style={{width:"50px", height:"30px",backgroundColor:"blue",color:"white",border:"none"}} onClick={()=>{setError(false)}}>Back</button>
         </div>
         :
@@ -120,7 +120,7 @@ const Login = (props) => {
                 }
                 </div>
                 <br/>
-                <button className="login-submit">{isLoading ? "Loading ..." :"Login"}</button>
+                <button title="login-button" className="login-submit">{isLoading ? "Loading ..." :"Login"}</button>
             </form>
             <div className="signup-link">
                 <div>

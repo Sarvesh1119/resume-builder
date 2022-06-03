@@ -15,7 +15,7 @@ const Objective = () => {
             <span className="section-heading">Objective</span>
             <hr/>
             <label>About me</label>
-            <textarea style={{ width:"99%",height:"80px"}} name="objective" value={objective} onChange={handleChange}/>
+            <textarea style={{ width:"99%",height:"80px"}} name="objective" title="test-objective" value={objective} onChange={handleChange}/>
         </div>
     )
 }

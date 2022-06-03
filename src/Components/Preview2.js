@@ -6,7 +6,7 @@ import {useSelector} from "react-redux"
 import {postData} from "../store/actions" 
 import {useDispatch} from "react-redux" 
 import withProgress from "../HigherOrderComponents/WithProgress"
-
+import PostButton from "./PostButton"
 
 const Preview2 = (props) => {
     useEffect(() => {
@@ -146,8 +146,8 @@ const Preview2 = (props) => {
                 </div>
             </div>
         </div>
-        <Link to="/submit">
-                <button className="submit-button" onClick={handleSubmit}>Submit</button>
+        <Link to="submit">
+            <PostButton/>
         </Link>
         </div>
     )

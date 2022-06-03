@@ -1,8 +1,9 @@
 import axios from "axios"
 import {useDispatch} from "react-redux"
+import {useState} from "react" 
 
 const PostUser = async (url,data,token) => {
-    const dispatch= useDispatch()
+   // const dispatch= useDispatch()
     try{
         let response= await axios.post(url,data,{headers:{'token': token}})
         //console.log(response.data)
@@ -16,7 +17,7 @@ const PostUser = async (url,data,token) => {
         }).then(response=> console.log(response.json()))*/
     }catch(e){
         console.error(e.message)
-        dispatch({type:"ERROR",msg:e.response.data.msg})
+        //dispatch({type:"ERROR",msg:e.response.data.msg})
     }
 }
 

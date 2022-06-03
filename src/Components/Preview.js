@@ -1,11 +1,11 @@
 import React,{useEffect} from "react" 
 import "../css/global.css" 
 import "../css/preview.css"
-import {Link} from "react-router-dom"
 import {useSelector} from "react-redux"  
-import {postData} from "../store/actions" 
 import {useDispatch} from "react-redux" 
 import withProgress from "../HigherOrderComponents/WithProgress"
+import PostButton from "./PostButton"
+import {Link} from "react-router-dom"
 
 const Preview = (props) => {
     useEffect(() => {
@@ -14,7 +14,6 @@ const Preview = (props) => {
     useEffect(()=>{
         props.handleProgress(100)
     },[])
-    const state= useSelector(state=> state.resume)
     const dispatch=useDispatch()
     const personalDetails= useSelector(state=> state.resume.personalDetails)
     const objective= useSelector(state=> state.resume.objective)
@@ -25,9 +24,7 @@ const Preview = (props) => {
     const skills= useSelector(state=> state.resume.skills)
     const courses= useSelector(state=> state.resume.courses)
     const languages= useSelector(state=> state.resume.languages)
-    const handleSubmit = () => {
-        dispatch(postData(state))
-    }
+
     return (
         <div>
         <h1 className="page-heading" style={{marginTop:"-125px",marginBottom:"90px"}}>Preview</h1>
@@ -193,8 +190,8 @@ const Preview = (props) => {
                 </div>
             </div>
         </div>
-        <Link to="/submit">
-                <button className="submit-button" onClick={handleSubmit}>Submit</button>
+        <Link to="submit">
+            <PostButton/>
         </Link>
         </div>
     )
